@@ -1,0 +1,181 @@
+
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background: url("../images/jim.jpg") repeat top center fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+section {
+	background-color: rgba(50,50,50,.7);
+	margin-top: 300px;
+	
+}
+
+p {
+	width: 90%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	background-color: rgba(250, 250, 0,.9);
+}
+
+nav {
+	color: gray;
+	float: right;
+	text-align: right;
+	line-height: 1.5em;
+	font-family: Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+
+header { 
+	font-family: impact, sans-serif; 
+	font-size: 120px;
+	color: rgba(250, 250, 0,.9);
+	padding: 0px;
+	width: 100%;
+	height: 180px;
+	width: 100%;
+	margin: 15px auto;
+	max-width: 1200px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+h3 {
+	font-family: Helvetica, sans-serif;
+	font-size: 136pt;
+	color: rgba(250, 250, 0,.7);
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+
+h4 {
+	font-family: Oswald, Helvetica, sans-serif;
+	font-size: 72pt;
+	color: rgba(250, 250, 0,.7);
+	text-transform: uppercase;
+	padding: 20, 0, 0, 0;
+}
+
+footer {
+	background-color: rgba(50,50,50,.7);
+	color: rgba(250, 250, 250,.8);
+	font-size: 12px;
+	font-family: Helvetica, sans-serif;
+	max-width: 1200px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 1em;
+
+}
+
+.wrapper{
+	width: 100%;
+	margin: 300px auto;
+	max-width: 1200px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.circle {
+
+	border-radius: 50%;
+	width: 400px;
+	height: 400px; 
+	text-align: center;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-weight: 800;
+}
+
+.portitem{
+	width: 30%;
+	height: 150px;
+	float: left;
+	background-color: black;
+	color: white;
+	margin-right: 15px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.item {
+	padding-top: 1.5em;
+	line-height: 1em;
+}
+
+
+
+.copy {
+	font-family: fjalla; helvetica, sans-serif;
+	font-size: 20pt;
+	outline-width: 50%;
+	color: rgba(250, 250, 250,.8);
+	line-height: 1.5em;
+	padding: 2em;
+}
+
+
+#quote {
+	background-color: rgba(250, 250, 0,.7);
+	font-family: helvetica, sans-serif;
+	font-size: 30pt;
+	color: rgba(255, 255, 255,1);
+	padding-left: 5px;
+
+}
+
+
+#navbox {
+	background-color: rgba(250, 250, 0, 1);
+
+}
+
+
+#circles{
+	margin-bottom: 200px;
+	margin-top: 200px;
+		width: 100%;
+	
+	max-width: 1200px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+#circle1 {
+	background-color: rgba(250,0,40,.4);
+	margin: -20px;
+	float:left;
+}
+
+#circle2 {
+	background-color: rgba(0,40,250,.4);
+	margin: -20px;
+	float:left;
+}
+
+#circle3 {
+	background-color: rgba(40,250,0,.4);
+	margin: -20px;
+	float:left;
+}
+
+
+
+
+
+

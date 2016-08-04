@@ -1,20 +1,18 @@
 
 body {
 	color: #FFFFFF;
-	background-image: url("../images/jim.jpg");
+	background-image: url("../images/jim_bw.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-color: black;
-
 }
 
 #quote {
 	text-align: center;
 	vertical-align: top;
 	background-color: rgba(0,250,250,.5);
-	font-size: 60px;
-	font-family: helvetica, sans-serif;
-	font-weight: 500;
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight:700;
 }
 
 #attribute {
