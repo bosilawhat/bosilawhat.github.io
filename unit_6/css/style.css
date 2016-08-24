@@ -40,7 +40,11 @@ header{
 	background: url("../images/sky2.jpg") repeat top center fixed;
 	height: auto;
 	width: 100%;
+<<<<<<< HEAD
 	padding: 1em 0;
+=======
+	padding: 0px;
+>>>>>>> origin/master
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -60,11 +64,19 @@ nav{
 }
 
 nav a {
+<<<<<<< HEAD
 	display: block; 
+=======
+	display: block;
+>>>>>>> origin/master
 	font-family: Fjalla, Helvetica, sans-serif;
 	text-transform: uppercase;
 	padding: .5em;
 	color: rgba(50, 50, 50, .8);
+<<<<<<< HEAD
+=======
+	list-style: none;
+>>>>>>> origin/master
 }
 
 footer a:hover{
@@ -89,6 +101,10 @@ section{
 	background-color: #FFE2B8;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 section:nth-of-type(1){
     background:rgba(232, 124, 1, .8);
     background: url("../images/jim.jpg") repeat top center fixed;
@@ -101,7 +117,14 @@ section:nth-of-type(2){
 
 section:nth-of-type(3){
     background:rgba(232, 57, 1, .8);
+<<<<<<< HEAD
     background: url("../images/soil.jpg") repeat top center;
+=======
+}
+
+section:nth-of-type(4){
+    background:rgba(255, 25, 1, .8);
+>>>>>>> origin/master
 }
 
 section:nth-of-type(5){
@@ -133,7 +156,7 @@ section:nth-of-type(5){
     background-image: url("../images/clorox.jpg");
 }
 
-#overlay    {  
+.overlay    {  
 	background:rgba(255,255,0,.7);
     text-align:center;
 	padding:55px 0px 58px ;
@@ -142,13 +165,13 @@ section:nth-of-type(5){
     -moz-transition: opacity .25s ease;
 }
 
-.floating-box:hover #overlay {
+.floating-box:hover .overlay {
                opacity:1;
 }
 
 
 
-#brand {  
+.brand {  
 	font-family:Oswald;
 	text-transform: uppercase;
     font-weight:900;
@@ -191,11 +214,14 @@ blockquote {
 	display: inline-block;
 }
 
+<<<<<<< HEAD
 blockquote:before{
 	content: open-quote;
 }
 
 
+=======
+>>>>>>> origin/master
 h2 {
 	font-family: Fjalla, Helvetica, sans-serif;
 	font-size: 56pt;
@@ -230,6 +256,14 @@ a:hover {
 	color: yellow;
 }
 
+<<<<<<< HEAD
+=======
+.two_column {
+	background-color:#ffb7cf;
+	border: 0px black solid;
+	padding: 20px;
+}
+>>>>>>> origin/master
 
 
 #about_text {
@@ -240,8 +274,13 @@ a:hover {
 	width: 77%;
 }
 
+<<<<<<< HEAD
 .sidebar {
 	background-color: none;
+=======
+aside {
+	background-color: rgba(20, 20, 20, .4);
+>>>>>>> origin/master
 	border: 0px black solid;
 	padding: 0 0em 1em 0em;
 	float: right;
