@@ -23,19 +23,28 @@ p {
 	letter-spacing: .07em;
 }
 
+blockquote p{
+	font-family: Fjalla, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color: rgba(50, 50, 50, .8);
+	margin: 0;
+	display: inline;
+	padding: 0 0 0 1em;
+}
+
+cite {
+}
+
 header{
+	background: url("../images/sky2.jpg") repeat top center fixed;
 	height: auto;
 	width: 100%;
-	padding: 0px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	max-width: 1000px;
-	margin-left: 10%;
-	margin-right: 10%;
+	padding: 1em 0;
 	padding-left: 10px;
 	padding-right: 10px;
-
 }
+
 
 nav{
 	background-color: rgba(250,250,0,.7);
@@ -48,11 +57,14 @@ nav{
 	color: rgba(50, 50, 50, .8);
 	line-height: 1.5em;
 	font-weight: 800;
-
 }
 
 nav a {
 	display: block; 
+	font-family: Fjalla, Helvetica, sans-serif;
+	text-transform: uppercase;
+	padding: .5em;
+	color: rgba(50, 50, 50, .8);
 }
 
 footer a:hover{
@@ -78,31 +90,23 @@ section{
 }
 
 section:nth-of-type(1){
-	background: url("../images/sky2.jpg") repeat top center fixed;
-}
-
-section:nth-of-type(2){
     background:rgba(232, 124, 1, .8);
     background: url("../images/jim.jpg") repeat top center fixed;
 }
 
-section:nth-of-type(3){
+section:nth-of-type(2){
     background:rgba(255, 107, 14, .8);
-    background: url("../images/trees.jpg") repeat top center fixed;
+    background: url("../images/trees.jpg") repeat top center;
 }
 
-section:nth-of-type(4){
+section:nth-of-type(3){
     background:rgba(232, 57, 1, .8);
-}
-
-section:nth-of-type(6){
-    background:rgba(255, 25, 1, .8);
+    background: url("../images/soil.jpg") repeat top center;
 }
 
 section:nth-of-type(5){
-    background: url("../images/soil.jpg") repeat top center fixed;
+    background:rgba(255, 25, 1, .8);
 }
-
 
 .wrapper{
 	max-width: 1000px;
@@ -116,10 +120,7 @@ section:nth-of-type(5){
 	background-color: rgba(50,50,50,.8);
 }
 
-.group {
-	width: 100%;
-	height: 200;
-}
+
 
 .floating-box {
     display: inline-block;
@@ -158,7 +159,7 @@ section:nth-of-type(5){
 .footernav {
 		margin: 2em 12px;
 		padding: 10px;
-
+		font-weight: 800;
 }
 
 .clearfix:after {
@@ -187,9 +188,15 @@ blockquote {
 	padding: .1em;
 	font-size: 24px;
 	text-align: left;
+	display: inline-block;
 }
 
-h3 {
+blockquote:before{
+	content: open-quote;
+}
+
+
+h2 {
 	font-family: Fjalla, Helvetica, sans-serif;
 	font-size: 56pt;
 	color: rgba(250, 250, 0,.7);
@@ -197,49 +204,62 @@ h3 {
 	padding: 20, 0, 0, 0;
 }
 
-h4 {
+h3 {
 	font-family: Fjalla, Helvetica, sans-serif;
-	font-size: 1em;
+	font-size: 12px;
 	font-weight: 800;
-	color: rgba(50, 50, 50, .8);
+	color: rgba(250, 250, 250, .8);
 	text-transform: uppercase;
-	padding: .1em .5em;
-	background-color: rgba(250,250,0,.7);
+	padding: .5em .8em;
 }
 
 li {
 	font-family: Fjalla, Helvetica, sans-serif;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	padding: .5em;
-	color: rgba(50, 50, 50, .8);
+	color: rgba(250, 250, 250, .8);
 	list-style: none;
+	font-weight: 100;
 }
 
+#quote{
+	padding: 0;
+}
 
 a:hover { 
 	color: yellow;
 }
 
-#two_column {
-	background-color:#ffb7cf;
-	border: 0px black solid;
-	padding: 20px;
-}
 
-#left {
-	background-color: rgba(50,50,50,.8);
+
+#about_text {
+	background-color: none;
 	border: 0px black solid;
 	padding: 0px;
 	float: left;
 	width: 77%;
 }
 
-#right {
-	background-color: rgba(20, 20, 20, .4);
+.sidebar {
+	background-color: none;
 	border: 0px black solid;
-	padding: 20px;
+	padding: 0 0em 1em 0em;
 	float: right;
 	width: 20%;
+	outline-color: black;
+	margin-top: 3.5em;
+}
+
+hr {
+	width: 100%;
+	color: rgba(250, 250, 0, .8); 
+	background-color: rgba(250, 250, 0,.8);
+	border: 0px;
+	height: 1px;
+}
+
+.hr_top {
+	height: 2px;
 }
 
 #aside_type {
