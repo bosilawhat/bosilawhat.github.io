@@ -123,7 +123,7 @@ section:nth-of-type(1){
 
 /*EXPERIENCE*/
 section:nth-of-type(3){
-   background: url("../images/trees.jpg") repeat top center;
+   background: url("../images/trees.jpg") no-repeat top center fixed;
 }
 
 /*TEACHING*/
@@ -166,6 +166,15 @@ h3 {
 	padding: .5em .8em;
 }
 
+h4 {
+	font-family: Fjalla, Helvetica, sans-serif;
+	font-size: .75em;
+	font-weight: 500;
+	color: rgba(250, 250, 0, .7);
+	text-transform: capitalize;
+	padding: .5em .8em;
+}
+
 li {
 	font-family: Fjalla, Helvetica, sans-serif;
 	text-transform: capitalize;
@@ -192,8 +201,8 @@ blockquote:after{
     border: 0px solid #333333;
     text-align: center;
     font-family: Fjalla, Helvetica, sans-serif;
-    background-image: url("../images/clorox.jpg");
-    float: left;
+/*    background-image: url("../images/clorox.jpg");
+*/    float: left;
     margin: .1em .5%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,6 +259,22 @@ blockquote:after{
 	float: left;
 	width: 75%;
 	font-size: .7em;
+}
+
+.resume_item{
+	margin: 0 2em;
+
+}
+
+.resume_item p{
+	line-height: 1.2em;
+	font-size: .5em;
+}
+
+.date {
+	margin-left: 2em;
+	margin-right: 3em;
+	color: rgba(250,250,250,.9);
 }
 
 .sidebar {
@@ -322,6 +347,31 @@ header .wrapper{
 	letter-spacing: -.05em;
 }
 
+/*PORTFOLIO THUMBNAILS*/
+#clorox {
+	    background-image: url("../images/clorox.jpg");
+}
+#walls {
+	    background-image: url("../images/walls.jpg");
+}
+#brita_sb {
+	    background-image: url("../images/brita_sb.jpg");
+}
+#kingsford {
+	    background-image: url("../images/kingsford.jpg");
+}
+#heinz {
+	    background-image: url("../images/heinz.jpg");
+}
+#slo {
+	    background-image: url("../images/slo.jpg");
+}
+#espn {
+	    background-image: url("../images/espn.jpg");
+}
+#placeholder {
+	    background-image: url("../images/placeholder.jpg");
+}
 
 
 /*desktop h1 protection*/
@@ -490,17 +540,19 @@ header .wrapper{
 
 	nav:hover a{
 		display: block;
-		font-size: 2em;
-/*		text-align: center;
-*/		margin: .2em 10% 0 10%;
+		font-size: 1em;
+		text-align: right;
+		float: right;
+		margin: .2em 10% 0 10%;
 	}
+
 	.hidenav {
 		display: none;
 	}
+
 	nav {
 		margin-left: 4%;
 		margin-top: 2%;
-		text-align: center;
 	}
 
 	header {
